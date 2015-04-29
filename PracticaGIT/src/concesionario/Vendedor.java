@@ -3,6 +3,7 @@ public class Vendedor {
 	private String nombre;
 	private int id;
 	private int telefono;
+	private String apeVendedor;
 	/**
 	 * @param nombre
 	 * @param id
