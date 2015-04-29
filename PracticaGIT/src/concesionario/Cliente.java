@@ -5,6 +5,9 @@ public class Cliente {
 	private int edad;
 	private String ciudad;
 	private int telefono;
+	private int idCliente;
+	private String nomCliente;
+	private String apeCliente;
 	
 	public Cliente(String nombre, int edad, String ciudad, int telefono) {
 		this.nombre = nombre;

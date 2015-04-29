@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Concesionario {
+	private String nomConcesionario;
+	private String direcConcesionario;
 	private List<Coche> almacen;
 
 	// Añadir y Eliminar coches en el nuestro almacen concesionario.

@@ -4,6 +4,7 @@ public class Coche {
 	private int numBastidor;
 	private String marca;
 	private String modelo;
+	private String matricula;
 	private int anioFab;
 	/**
 	 * @param numBastidor
