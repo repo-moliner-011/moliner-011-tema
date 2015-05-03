@@ -55,5 +55,17 @@ public class Vendedor {
 		return "Vendedor [nombre=" + nombre + ", id=" + id + ", telefono="
 				+ telefono + "]";
 	}
+	/**
+	 * @return el apeVendedor
+	 */
+	public String getApeVendedor() {
+		return apeVendedor;
+	}
+	/**
+	 * @param apeVendedor el apeVendedor a establecer
+	 */
+	public void setApeVendedor(String apeVendedor) {
+		this.apeVendedor = apeVendedor;
+	}
 
 }

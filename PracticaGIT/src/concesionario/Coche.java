@@ -71,5 +71,17 @@ public class Coche {
 		return "Coche [numBastidor=" + numBastidor + ", marca=" + marca
 				+ ", modelo=" + modelo + ", anioFab=" + anioFab + "]";
 	}
+	/**
+	 * @return el matricula
+	 */
+	public String getMatricula() {
+		return matricula;
+	}
+	/**
+	 * @param matricula el matricula a establecer
+	 */
+	public void setMatricula(String matricula) {
+		this.matricula = matricula;
+	}
 
 }
